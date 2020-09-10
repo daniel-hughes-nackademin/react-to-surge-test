@@ -15,6 +15,10 @@
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
+  "devDependencies": { "surge": "latest", "git-scripts": "0.2.1" },
+  "git": {
+    "scripts": { "pre-push": "surge --project ./ --domain react-to-surge-test.surge.sh" }
+    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

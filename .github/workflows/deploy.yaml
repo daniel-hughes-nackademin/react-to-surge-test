@@ -25,4 +25,4 @@ jobs:
         run: npm install -g surge
 
       - name: Deploy to Surge
-        run:  surge ./build https://react-to-surge-test.surge.sh/ --token ${{secrets.TOKEN}}
+        run:  surge ./build https://react-to-surge-test.surge.sh/ --email daniel.hughes.sweden@gmail.com --token ${{secrets.TOKEN}}
